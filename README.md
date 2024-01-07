@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Yadnik Bendale</h1>
-<h3 align="center">First year Masters Student in Electrical Engineering with a specialisation in Circuits and Computer Engineering. Skilled in Embedded Systems Development, I bring proven expertise in Hardware, Firmware, Power Management, and Sensor Integration. My work spans developing Critical Applications for Insurance Tech and various Commercial Sectors, ensuring Reliable and Advanced Embedded Solutions.</h3>
-
+<h3 align="center">An Embedded Systems Developer, pursuing Masters of Science in Electrical Engineering from the University of Pennsylvania</h3>
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=yadnik1&label=Profile%20views&color=0e75b6&style=flat" alt="yadnik1" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=yadnik1" alt="yadnik1" /></a> </p>
