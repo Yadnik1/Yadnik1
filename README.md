@@ -67,7 +67,7 @@ ESP32, RP2040 and Nordic parts in the mix.
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Verilog](https://img.shields.io/badge/Verilog-AA1F2E?style=for-the-badge&logo=v&logoColor=white)
+![Verilog](https://img.shields.io/badge/Verilog-AA1F2E?style=for-the-badge)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
 **Microcontrollers & Silicon**
@@ -83,7 +83,7 @@ ESP32, RP2040 and Nordic parts in the mix.
 
 ![Zephyr](https://img.shields.io/badge/Zephyr_RTOS-7B68EE?style=for-the-badge&logo=zephyrproject&logoColor=white)
 ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-1AAD19?style=for-the-badge&logo=freertos&logoColor=white)
-![Bare Metal](https://img.shields.io/badge/Bare--Metal-2C2C2C?style=for-the-badge&logo=ccleaner&logoColor=white)
+![Bare Metal](https://img.shields.io/badge/Bare--Metal-2C2C2C?style=for-the-badge)
 ![MicroPython](https://img.shields.io/badge/MicroPython-2B2728?style=for-the-badge&logo=micropython&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00878F?style=for-the-badge&logo=arduino&logoColor=white)
 
