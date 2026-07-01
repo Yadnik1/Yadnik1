@@ -1,9 +1,13 @@
 <h1 align="center">Yadnik Bendale</h1>
 
 <p align="center">
-  Embedded Systems &amp; Firmware Engineer
+  <b>Embedded Systems &amp; Firmware Engineer</b>
   &nbsp;·&nbsp; ARM Cortex-M / STM32
   &nbsp;·&nbsp; MSE, University of Pennsylvania
+</p>
+
+<p align="center">
+  I build reliable firmware for resource-constrained devices &mdash; from board bring-up to cloud telemetry.
 </p>
 
 <p align="center">
@@ -17,16 +21,26 @@
 
 ## About
 
-I design and build embedded products end to end — schematic capture, PCB layout
-in KiCad, board bring-up, firmware, and the cloud telemetry that turns raw sensor
-data into something useful. Most of my work is on ARM Cortex-M (STM32), with
-regular use of ESP32, RP2040, and Nordic silicon.
+```c
+struct Engineer yadnik = {
+    .name         = "Yadnik Bendale",
+    .role         = "Embedded Systems & Firmware Engineer",
+    .education    = "MSE, University of Pennsylvania",
+    .focus        = { "Bare-metal C", "RTOS", "PCB Design", "Sensor Fusion" },
+    .building     = "STM32U5 imaging firmware + 4G-LTE asset tracker",
+    .open_to_work = true,
+};
+```
 
-- Developing production **STM32U5** firmware for multi-spectral imaging and a **4G-LTE asset tracker**
-- Experienced from **register-level bare-metal** through **RTOS** scheduling and **OTA** update pipelines
+I work across the full embedded stack: schematic capture, PCB layout in KiCad,
+board bring-up, firmware, and the cloud telemetry that turns raw sensor data into
+something useful. Most of my work is on ARM Cortex-M (STM32), with regular use of
+ESP32, RP2040, and Nordic silicon.
+
+- Developing production **STM32U5** firmware for multi-spectral imaging plus a **4G-LTE asset tracker**
+- Comfortable from **register-level bare-metal** through **RTOS** scheduling and **OTA** update pipelines
 - **Google Summer of Code 2021** contributor to **Zephyr RTOS** (BeagleConnect Freedom)
 - Focus areas: low-power design, sensor fusion, and safety-critical systems
-- Open to firmware and embedded systems roles
 
 ---
 
@@ -122,16 +136,16 @@ An ESP32 → InfluxDB → Grafana pipeline streaming eight parameters over Wi-Fi
 <tr>
 <td width="50%" valign="top">
 
-#### [STM32 Driver Collection](https://github.com/Yadnik1?tab=repositories&q=stm32)
-Bare-metal drivers written from scratch: flash memory, EEPROM emulation, a custom bootloader, and the nRF905 sub-GHz radio.
+#### [Flash Memory Driver for STM32](https://github.com/Yadnik1/Flash-Memory-STM32)
+Bare-metal STM32 internal-flash driver — page erase, word/buffer writes, and safe read-back for on-device data storage.
 
-`STM32` · `Drivers` · `Bootloader` · `Flash`
+`STM32` · `Bare-metal` · `Flash` · `Driver`
 
 </td>
 <td width="50%" valign="top">
 
 #### [Through-Wall Detection](https://github.com/Yadnik1/Through-Wall-Detection)
-Human-presence sensing through obstructions, combining RF signal processing with embedded data acquisition.
+Human-presence sensing through obstructions, combining RF/radar signal processing with embedded data acquisition.
 
 `RF` · `Radar` · `Python` · `DSP`
 
@@ -143,11 +157,13 @@ Human-presence sensing through obstructions, combining RF signal processing with
 
 ---
 
-## GitHub Stats
+## GitHub Activity
 
 <div align="center">
 
 <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=yadnik1&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117" alt="GitHub stats" />
 <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=yadnik1&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&langs_count=8" alt="Top languages" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=yadnik1&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&area_color=1F6FEB&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" width="100%" />
 
 </div>
