@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Embedded Systems &amp; Firmware Engineer</b>
-  &nbsp;·&nbsp; ARM Cortex-M / STM32
+  &nbsp;·&nbsp; San Francisco, CA
   &nbsp;·&nbsp; MSE, University of Pennsylvania
 </p>
 
@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/yadnik-bendale/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:yadnik22@gmail.com"><img src="https://img.shields.io/badge/Email-555555?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://drive.google.com/file/d/1d_Tq3pRdVrcT8IUlH9_eBKZUF67QYb-p/view?usp=sharing"><img src="https://img.shields.io/badge/Résumé-2EA44F?style=flat-square&logo=readdotcv&logoColor=white" alt="Résumé"/></a>
+  <a href="https://github.com/Yadnik1/Yadnik1/blob/main/Yadnik_Bendale_Resume.pdf"><img src="https://img.shields.io/badge/Résumé-2EA44F?style=flat-square&logo=readdotcv&logoColor=white" alt="Résumé"/></a>
   <a href="https://www.youtube.com/channel/UCPee68W5xnyTmCAHwcblU2g"><img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube"/></a>
 </p>
 
@@ -24,23 +24,42 @@
 ```c
 struct Engineer yadnik = {
     .name         = "Yadnik Bendale",
-    .role         = "Embedded Systems & Firmware Engineer",
+    .role         = "Firmware Engineer @ Torch Systems",
+    .based_in     = "San Francisco, CA",
     .education    = "MSE, University of Pennsylvania",
     .focus        = { "Bare-metal C", "RTOS", "PCB Design", "Sensor Fusion" },
-    .building     = "STM32U5 imaging firmware + 4G-LTE asset tracker",
+    .building     = "On-device AI vision + sensor firmware on STM32U5",
     .open_to_work = true,
 };
 ```
 
-I work across the full embedded stack: schematic capture, PCB layout in KiCad,
+I build across the full embedded stack: schematic capture, PCB layout in Altium/KiCad,
 board bring-up, firmware, and the cloud telemetry that turns raw sensor data into
 something useful. Most of my work is on ARM Cortex-M (STM32), with regular use of
-ESP32, RP2040, and Nordic silicon.
+ESP32, Nordic, TI, and Microchip silicon.
 
-- Developing production **STM32U5** firmware for multi-spectral imaging plus a **4G-LTE asset tracker**
-- Comfortable from **register-level bare-metal** through **RTOS** scheduling and **OTA** update pipelines
+- Shipping production **FreeRTOS** firmware — on-device AI vision, secure OTA, and multi-sensor drivers
+- Comfortable from **register-level bare-metal** through **RTOS** scheduling, **secure boot**, and **FUOTA** pipelines
 - **Google Summer of Code 2021** contributor to **Zephyr RTOS** (BeagleConnect Freedom)
 - Focus areas: low-power design, sensor fusion, and safety-critical systems
+
+---
+
+## Experience
+
+**Torch Systems** &nbsp;—&nbsp; Firmware Engineer &nbsp;·&nbsp; San Francisco &nbsp;·&nbsp; 2026–Present
+> On-device AI detection on **STM32U5** (FreeRTOS): dual-exposure HDR across 3 cameras + a MobileNetV3 human classifier at **sub-200 ms** inference. Built a 17-sensor driver framework with encrypted LTE-M telemetry and AWS IoT OTA achieving **98% update success** with automatic rollback.
+
+**ePlant** &nbsp;—&nbsp; Firmware Engineer &nbsp;·&nbsp; San Francisco &nbsp;·&nbsp; 2025–2026
+> Cut device boot time **40%** and extended battery life **30%**. Delivered **LoRaWAN FUOTA** with a multi-slot bootloader and reboot-cause tracking that reduced field interventions **80%**.
+
+**Span.IO** &nbsp;—&nbsp; Device Software Engineer Intern &nbsp;·&nbsp; San Francisco &nbsp;·&nbsp; 2024
+> Automated HIL testing over CAN with Buildkite CI/CD (**−60%** manual test time). Built a secure STM32 bootloader with **ARM TrustZone** secure boot, A/B updates, and cryptographic firmware signing.
+
+**Google Summer of Code — BeagleBoard.org** &nbsp;—&nbsp; Student Developer &nbsp;·&nbsp; 2021
+> Ported BeagleConnect Freedom to **Zephyr RTOS** (CMake / Kconfig / Device Tree, +15% boot time) and wrote MicroPython drivers for 8 MIKROE click boards.
+
+<sub>Earlier: Embedded System Developer @ Devlata Technologies · Embedded Systems Project Associate @ IIT Bombay — see résumé.</sub>
 
 ---
 
@@ -50,6 +69,7 @@ ESP32, RP2040, and Nordic silicon.
 
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![ARM Assembly](https://img.shields.io/badge/ARM_Assembly-0091BD?style=flat-square&logo=arm&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Verilog](https://img.shields.io/badge/Verilog-AA1F2E?style=flat-square)
@@ -58,39 +78,44 @@ ESP32, RP2040, and Nordic silicon.
 
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
-![RP2040](https://img.shields.io/badge/RP2040-7C0A02?style=flat-square&logo=raspberrypi&logoColor=white)
-![nRF52](https://img.shields.io/badge/Nordic_nRF-00A9CE?style=flat-square&logo=nordicsemiconductor&logoColor=white)
+![nRF](https://img.shields.io/badge/Nordic_nRF-00A9CE?style=flat-square&logo=nordicsemiconductor&logoColor=white)
+![TI](https://img.shields.io/badge/TI_Tiva_/_CC13xx-CC0000?style=flat-square&logo=texasinstruments&logoColor=white)
+![SAMD](https://img.shields.io/badge/Microchip_SAMD-EE3124?style=flat-square&logo=microchip&logoColor=white)
 ![ARM Cortex-M](https://img.shields.io/badge/ARM_Cortex--M-0091BD?style=flat-square&logo=arm&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
 
 **RTOS &amp; Firmware**
 
-![Zephyr](https://img.shields.io/badge/Zephyr_RTOS-7B68EE?style=flat-square&logo=zephyrproject&logoColor=white)
 ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-1AAD19?style=flat-square&logo=freertos&logoColor=white)
+![Zephyr](https://img.shields.io/badge/Zephyr_RTOS-7B68EE?style=flat-square&logo=zephyrproject&logoColor=white)
 ![Bare Metal](https://img.shields.io/badge/Bare--Metal-2C2C2C?style=flat-square)
+![Secure Boot](https://img.shields.io/badge/TrustZone_/_Secure_Boot-1793D1?style=flat-square)
+![OTA](https://img.shields.io/badge/OTA_/_FUOTA-FF6F00?style=flat-square)
 ![MicroPython](https://img.shields.io/badge/MicroPython-2B2728?style=flat-square&logo=micropython&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white)
 
 **Protocols &amp; Interfaces**
 
 ![I2C](https://img.shields.io/badge/I²C-444444?style=flat-square)
 ![SPI](https://img.shields.io/badge/SPI-444444?style=flat-square)
 ![UART](https://img.shields.io/badge/UART-444444?style=flat-square)
+![RS485](https://img.shields.io/badge/RS--485-444444?style=flat-square)
 ![CAN](https://img.shields.io/badge/CAN_bus-444444?style=flat-square)
 ![BLE](https://img.shields.io/badge/BLE-0082FC?style=flat-square&logo=bluetooth&logoColor=white)
+![Zigbee](https://img.shields.io/badge/Zigbee-EB0443?style=flat-square&logo=zigbee&logoColor=white)
+![LoRa](https://img.shields.io/badge/LoRa_/_LoRaWAN-0088CC?style=flat-square)
 ![LTE](https://img.shields.io/badge/LTE--M_/_NB--IoT-FF6F00?style=flat-square)
 ![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
 
 **Tools, Cloud &amp; Hardware**
 
+![Altium](https://img.shields.io/badge/Altium_Designer-A5915F?style=flat-square&logo=altiumdesigner&logoColor=white)
 ![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white)
-![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
+![STM32CubeIDE](https://img.shields.io/badge/STM32CubeIDE-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
 ![AWS IoT](https://img.shields.io/badge/AWS_IoT-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=flat-square&logo=influxdb&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white)
+![Logic Analyzer](https://img.shields.io/badge/JTAG_/_Logic_Analyzer-444444?style=flat-square)
 
 ---
 
