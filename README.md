@@ -21,18 +21,6 @@
 
 ## About
 
-```c
-struct Engineer yadnik = {
-    .name         = "Yadnik Bendale",
-    .role         = "Firmware Engineer @ Torch Systems",
-    .based_in     = "San Francisco, CA",
-    .education    = "MSE, University of Pennsylvania",
-    .focus        = { "Bare-metal C", "RTOS", "PCB Design", "Sensor Fusion" },
-    .building     = "On-device AI vision + sensor firmware on STM32U5",
-    .open_to_work = true,
-};
-```
-
 I build across the full embedded stack: schematic capture, PCB layout in Altium/KiCad,
 board bring-up, firmware, and the cloud telemetry that turns raw sensor data into
 something useful. Most of my work is on ARM Cortex-M (STM32), with regular use of
