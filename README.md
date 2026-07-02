@@ -125,22 +125,12 @@ ESP32, Nordic, TI, and Microchip silicon.
 <tr>
 <td width="50%" valign="top">
 
-#### [Multi-Sensor Imaging Firmware](https://github.com/Yadnik1/torch-sensor-arduino)
-STM32U5G9 firmware that fuses RGB and thermal imaging with environmental sensors and cellular uploads. Includes Memfault OTA, an IWDG watchdog, and bank-swap rollback.
-
-`STM32U5` · `C++` · `HDR` · `LTE` · `OTA`
-
-</td>
-<td width="50%" valign="top">
-
 #### [Low-Cost Telematics Device](https://github.com/Yadnik1/Low-Cost-Telematics-Device)
 Usage-based-insurance telematics that can save drivers up to 30% on premiums. Custom two-layer KiCad PCB, C/CMake firmware, and IMU noise reduction in Python.
 
 `KiCad` · `C` · `CMake` · `IMU` · `UBI`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 #### [Overhead Crane Control System](https://github.com/Yadnik1/Overhead-Crane-Control-System)
@@ -149,6 +139,8 @@ Safety-focused STM32G030 firmware for crane encoder and decoder units, built for
 `STM32G0` · `Bare-metal` · `Safety` · `RF`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### [Noxious-Gas Detection for Coal Mines](https://github.com/Yadnik1/Noxious-Gas-Detection-System-for-Coal-Mines)
@@ -157,8 +149,6 @@ An ESP32 → InfluxDB → Grafana pipeline streaming eight parameters over Wi-Fi
 `ESP32` · `Sensor Fusion` · `Grafana` · `IoT`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 #### [Flash Memory Driver for STM32](https://github.com/Yadnik1/Flash-Memory-STM32)
@@ -167,12 +157,22 @@ Bare-metal STM32 internal-flash driver — page erase, word/buffer writes, and s
 `STM32` · `Bare-metal` · `Flash` · `Driver`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### [Through-Wall Detection](https://github.com/Yadnik1/Through-Wall-Detection)
 Human-presence sensing through obstructions, combining RF/radar signal processing with embedded data acquisition.
 
 `RF` · `Radar` · `Python` · `DSP`
+
+</td>
+<td width="50%" valign="top">
+
+#### [SunDay Wellness Tracker](https://github.com/Yadnik1/SunDay-Wellness-Tracker)
+Wearable environmental-health monitor tracking UV exposure, natural-vs-artificial light, and air quality to surface how surroundings affect wellbeing.
+
+`C` · `Wearable` · `Sensors` · `Health`
 
 </td>
 </tr>
