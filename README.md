@@ -167,16 +167,3 @@ Wearable environmental-health monitor tracking UV exposure, natural-vs-artificia
 </table>
 
 <p align="center"><a href="https://github.com/Yadnik1?tab=repositories">View all repositories →</a></p>
-
----
-
-## GitHub Activity
-
-<div align="center">
-
-<img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=yadnik1&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117" alt="GitHub stats" />
-<img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=yadnik1&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&langs_count=8" alt="Top languages" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=yadnik1&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&area_color=1F6FEB&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" width="100%" />
-
-</div>
